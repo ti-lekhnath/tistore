@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale.InvoiceTemplate">
+        <div class="pos-receipt p-2">
+            <div class="pos-receipt-order-data text-center pt-3">
+                <span>Powered by <b> Odoo </b></span>
+            </div>
+        </div>
+    </t>
+</templates>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="point_of_sale.ReceiptScreen" t-inherit-mode="extension">
+        <xpath expr="//div[contains(@class,'receipt-options')]/div[contains(@class,'gap-1')]" position="inside">
+            <button class="button print btn btn-lg btn-secondary w-100 py-3" t-on-click="() => doPrintInvoice.call()">
+                <i t-attf-class="fa {{doPrintInvoice?.status === 'loading' ? 'fa-fw fa-spin fa-circle-o-notch' : 'fa-print'}} me-1" />Print Full Invoice
+            </button>
+        </xpath>
+    </t>
+</templates>
