@@ -17,7 +17,7 @@ from pdf2image import convert_from_bytes
 from pypdf import PdfReader
 
 
-GROQ_API_KEY="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"
+GROQ_API_KEY=""
 DEFAULT_OLG_ENDPOINT = 'https://olg.api.odoo.com'
 _logger = logging.getLogger(__name__)
 
