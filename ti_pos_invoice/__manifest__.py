@@ -1,6 +1,6 @@
 {
-    "name": "TI POS Invoice Print",
-    "version": "1.0.0",
+    "name": "TI POS Invoice Print release (1.0.1)",
+    "version": "1.0.1",
     "summary": "Replace POS full receipt print with customer invoice preview/print.",
     "category": "Point of Sale",
     "author": "TI Store",
